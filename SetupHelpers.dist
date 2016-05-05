@@ -3,20 +3,20 @@
 #dist files
 dist /extensions/HUD/HUD.dist https://raw.githubusercontent.com/OpenEngineDK/extensions-HUD/master/HUD.dist
 
-darcs /extensions/SetupHelpers			http://openengine.dk/code/extensions/SetupHelpers
-darcs /extensions/OpenGLRenderer		http://openengine.dk/code/extensions/OpenGLRenderer
+git /extensions/SetupHelpers			https://github.com/OpenEngineDK/extensions-SetupHelpers.git
+git /extensions/OpenGLRenderer		https://github.com/OpenEngineDK/extensions-OpenGLRenderer.git
 git /extensions/SDL             https://github.com/OpenEngineDK/extensions-SDL.git
-darcs /extensions/SDLImage			http://openengine.dk/code/extensions/SDLImage
-darcs /extensions/OBJResource			http://openengine.dk/code/extensions/OBJResource
-darcs /extensions/HUD				http://openengine.dk/code/extensions/HUD
-darcs /extensions/AccelerationStructures	http://openengine.dk/code/extensions/AccelerationStructures
+git /extensions/SDLImage			https://github.com/OpenEngineDK/extensions-SDLImage.git
+git /extensions/OBJResource			https://github.com/OpenEngineDK/extensions-OBJResource.git
+git /extensions/HUD				https://github.com/OpenEngineDK/extensions-HUD.git
+git /extensions/AccelerationStructures	https://github.com/OpenEngineDK/extensions-AccelerationStructures.git
 
 git-dev /extensions/SDL                    git@github.com:OpenEngineDK/extensions-SDL.git
-darcs-dev /extensions/SetupHelpers		fh.daimi.au.dk:/users/cgd/code/extensions/SetupHelpers
-darcs-dev /extensions/OpenGLRenderer		fh.daimi.au.dk:/users/cgd/code/extensions/OpenGLRenderer
-darcs-dev /extensions/SDLImage			fh.daimi.au.dk:/users/cgd/code/extensions/SDLImage
-darcs-dev /extensions/OBJResource		fh.daimi.au.dk:/users/cgd/code/extensions/OBJResource
-darcs-dev /extensions/HUD			fh.daimi.au.dk:/users/cgd/code/extensions/HUD
-darcs-dev /extensions/AccelerationStructures	fh.daimi.au.dk:/users/cgd/code/extensions/AccelerationStructures
+git-dev /extensions/SetupHelpers		git@github.com:OpenEngineDK/extensions-SetupHelpers.git
+git-dev /extensions/OpenGLRenderer		git@github.com:OpenEngineDK/extensions-OpenGLRenderer.git
+git-dev /extensions/SDLImage			git@github.com:OpenEngineDK/extensions-SDLImage.git
+git-dev /extensions/OBJResource		git@github.com:OpenEngineDK/extensions-OBJResource.git
+git-dev /extensions/HUD			git@github.com:OpenEngineDK/extensions-HUD.git
+git-dev /extensions/AccelerationStructures	git@github.com:OpenEngineDK/extensions-AccelerationStructures.git
 
 
