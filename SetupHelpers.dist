@@ -1,17 +1,17 @@
 # SetupHelpers dependencies
 
 #dist files
-dist /extensions/HUD/HUD.dist http://openengine.dk/code/extensions/HUD/HUD.dist
+dist /extensions/HUD/HUD.dist https://raw.githubusercontent.com/OpenEngineDK/extensions-HUD/master/HUD.dist
 
 darcs /extensions/SetupHelpers			http://openengine.dk/code/extensions/SetupHelpers
 darcs /extensions/OpenGLRenderer		http://openengine.dk/code/extensions/OpenGLRenderer
-darcs /extensions/SDL             http://openengine.dk/code/extensions/SDL
+git /extensions/SDL             https://github.com/OpenEngineDK/extensions-SDL.git
 darcs /extensions/SDLImage			http://openengine.dk/code/extensions/SDLImage
 darcs /extensions/OBJResource			http://openengine.dk/code/extensions/OBJResource
 darcs /extensions/HUD				http://openengine.dk/code/extensions/HUD
 darcs /extensions/AccelerationStructures	http://openengine.dk/code/extensions/AccelerationStructures
 
-darcs-dev /extensions/SDL                    fh.daimi.au.dk:/users/cgd/code/extensions/SDL
+git-dev /extensions/SDL                    git@github.com:OpenEngineDK/extensions-SDL.git
 darcs-dev /extensions/SetupHelpers		fh.daimi.au.dk:/users/cgd/code/extensions/SetupHelpers
 darcs-dev /extensions/OpenGLRenderer		fh.daimi.au.dk:/users/cgd/code/extensions/OpenGLRenderer
 darcs-dev /extensions/SDLImage			fh.daimi.au.dk:/users/cgd/code/extensions/SDLImage
